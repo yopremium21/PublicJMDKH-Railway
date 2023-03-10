@@ -2,7 +2,7 @@ version: "3.3"
 
 services:
   app:
-    container_name: jmdkh-mltb
+    container_name: pablo-coder
     build:
       context: .
       dockerfile: Dockerfile
