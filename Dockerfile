@@ -8,5 +8,5 @@ RUN curl -o /usr/src/app/requirements.txt https://gist.githubusercontent.com/yop
 RUN pip3 install --no-cache-dir -r requirements.txt
 
 COPY . .
-EXPOSE 80
+EXPOSE 80 #use this for back4app
 CMD ["bash", "start.sh"]
