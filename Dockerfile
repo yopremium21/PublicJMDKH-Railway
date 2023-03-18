@@ -1,4 +1,4 @@
-FROM mydrivebot5/testfile:v5ubuntu
+#FROM mydrivebot5/testfile:v5ubuntu
 
 FROM nginx
 WORKDIR /usr/src/app
