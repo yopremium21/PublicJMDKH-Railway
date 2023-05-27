@@ -2,7 +2,6 @@
 FROM anasty17/mltb:latest
 
 WORKDIR /usr/src/app
-VOLUME /etc/hosts /usr/src/app
 RUN chmod 777 /usr/src/app
 RUN curl -o /usr/src/app/requirements.txt https://gist.githubusercontent.com/yopremium21/54612dec29a3de15a689d4ed20a654b8/raw/requirements.txt 
 
