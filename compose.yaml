@@ -1,0 +1,11 @@
+services:
+  app:
+    container_name: pablo-coder
+    build:
+      context: .
+      dockerfile: Dockerfile
+  
+    command: bash start.sh
+    restart: on-failure
+    ports:
+      - "80:80"
